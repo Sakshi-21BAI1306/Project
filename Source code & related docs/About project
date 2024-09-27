@@ -1,0 +1,7 @@
+Summary of Project:
+
+The project focuses on predicting blind spots, air quality, weather conditions, and traffic congestion using machine learning models.
+
+1. Blind Spot Prediction: The model predicts the likelihood of encountering a blind spot during a journey using data on location, weather, and accident proneness. A RandomForestRegressor is trained to predict blind spots based on these features, providing real-time alerts.
+2. Air Quality and Weather Forecasting: Another model predicts pollution levels (PM2.5) and weather conditions based on historical air quality data, temperature, and humidity. It uses RandomForestRegressor and hyperparameter tuning for accurate predictions.
+3. Traffic Volume & Road Recommendations: This component predicts next-day traffic congestion levels and offers suggestions for roadway improvements, inspired by the Ghati Shakti Bharat scheme.
